@@ -47,9 +47,9 @@ Open a new terminal after setting persistent environment variables so they take 
 Pass the full BookMyShow seat-layout URL. Omit `--rows` to report all rows, or provide the row letters you want to inspect.
 
 ```powershell
-python Seat_checker_by_showURL.py "https://in.bookmyshow.com/movies/HYD/seat-layout/ET00491771/PRHN/259279/20261216"
+python Seat_checker_by_showURL.py "https://in.bookmyshow.com/movies/HYD/seat-layout/ET00491771/PRHN/259279/20261216 --watch 60 --headed"
 
-python Seat_checker_by_showURL.py "https://in.bookmyshow.com/movies/HYD/seat-layout/ET00491771/PRHN/259279/20261216" --rows J I H G F E D C B A
+python Seat_checker_by_showURL.py "https://in.bookmyshow.com/movies/HYD/seat-layout/ET00491771/PRHN/259279/20261216" --rows J I H G F E D C B A --watch 60 --headed
 ```
 
 The URL can also be assembled from its parts:
